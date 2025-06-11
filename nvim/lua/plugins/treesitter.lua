@@ -4,8 +4,6 @@ return {
   lazy = vim.fn.argc(-1) == 0, -- load treesitter early when opening a file from the cmdline
   cmd = { "TSUpdateSync", "TSUpdate", "TSInstall" },
   opts_extend = { "ensure_installed" },
-  ---@type TSConfig
-  ---@diagnostic disable-next-line: missing-fields
   opts = {
     highlight = {
       enable = true,
