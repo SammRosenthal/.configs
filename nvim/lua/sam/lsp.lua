@@ -1,6 +1,7 @@
 -- Enable
 vim.lsp.enable("ts_ls")
 vim.lsp.enable("luals")
+vim.lsp.enable("tailwind")
 
 -- Config
 vim.diagnostic.config({
